@@ -1,0 +1,67 @@
+        Trophy = {
+            number1 = "Int01_ba_trophy01",
+            battler = "Int01_ba_trophy02",
+            dancer = "Int01_ba_trophy03",
+            Enable = function(trophy, state, color, refresh)
+                SetIplPropState(AfterHoursNightclubs.interiorId, trophy, state, refresh)
+                SetInteriorEntitySetColor(AfterHoursNightclubs.interiorId, trophy, color)
+            chest = "Int01_ba_trophy04", -- Chest on the VIP desk
+            vaultAmmunations = "Int01_ba_trophy05", -- (inside vault) Ammunations
+            vaultMeth = "Int01_ba_trophy07", -- (inside vault) Meth bag
+            vaultFakeID = "Int01_ba_trophy08", -- (inside vault) Fake ID
+            vaultWeed = "Int01_ba_trophy09", -- (inside vault) Opened weed bag
+            vaultCoke = "Int01_ba_trophy10", -- (inside vault) Coke doll
+            vaultCash = "Int01_ba_trophy11", -- (inside vault) Scrunched fake money
+        AfterHoursNightclubs.Interior.Trophy.Enable(AfterHoursNightclubs.Interior.Trophy.number1, true, AfterHoursNightclubs.Interior.Trophy.Color.gold)
+-- Garment Factory: 752.31, -997.24, -47.0
+            ipl = "m24_2_garment_factory",
+    Trophy = {
+        egg = "set_pent_rob_egg",
+        idol01 = "set_pent_rob_idol_01",
+        idol02 = "set_pent_rob_idol_02",
+        Enable = function(trophy, state, refresh)
+            SetIplPropState(AgentsFactory.interiorId, trophy, state, refresh)
+        AgentsFactory.Trophy.Enable(AgentsFactory.Trophy.idol01, true, false)
+        AgentsFactory.Trophy.Enable(AgentsFactory.Trophy.idol02, true, false)
+    Trophy = {
+        plaque = "set_trophy_10x",
+        badge = "set_trophy_24x",
+        handcuffs = "set_trophy_100x",
+        Enable = function(trophy, state, refresh)
+            SetIplPropState(SummerOffice.interiorId, trophy, state, refresh)
+        SummerOffice.Trophy.Enable(SummerOffice.Trophy.plaque, true, false)
+        SummerOffice.Trophy.Enable(SummerOffice.Trophy.badge, true, false)
+        SummerOffice.Trophy.Enable(SummerOffice.Trophy.handcuffs, true, false)
+    Trophy = {
+        claw = "entity_set_arcade_set_trophy_claw",
+        love = "entity_set_arcade_set_trophy_love",
+        teller = "entity_set_arcade_set_trophy_teller",
+        gunner = "entity_set_arcade_set_trophy_gunner",
+        king = "entity_set_arcade_set_trophy_king",
+        racer = "entity_set_arcade_set_trophy_racer",
+        patriot = "entity_set_arcade_set_trophy_patriot",
+        monkey = "entity_set_arcade_set_trophy_monkey",
+        brawler = "entity_set_arcade_set_trophy_brawler",
+        retro = "entity_set_arcade_set_trophy_retro",
+        cabs = "entity_set_arcade_set_trophy_cabs",
+        strife = "entity_set_arcade_set_trophy_strife",
+        Enable = function(trophy, state, refresh)
+            SetIplPropState(DiamondArcade.interiorId, trophy, state, refresh)
+        DiamondArcade.Trophy.Enable(DiamondArcade.Trophy.claw, true, false)
+        DiamondArcade.Trophy.Enable(DiamondArcade.Trophy.teller, true, false)
+        DiamondArcade.Trophy.Enable(DiamondArcade.Trophy.gunner, true, false)
+        DiamondArcade.Trophy.Enable(DiamondArcade.Trophy.brawler, true, false)
+        DiamondArcade.Trophy.Enable(DiamondArcade.Trophy.cabs, true, false)
+            eagle = "set_int_02_trophy1",
+            iaa = "set_int_02_trophy_iaa",
+            submarine = "set_int_02_trophy_sub",
+                SetInteriorEntitySetColor(DoomsdayFacility.interiorId, "set_int_02_trophy_sub", color)
+            "set_trophy_planter",
+            "set_loft_trophy_planter",
+            "set_reg_trophy_planter"
+            "set_trophy_planter",
+            "set_loft_trophy_planter",
+            "set_reg_trophy_planter"
+            "set_trophy_planter",
+            "set_loft_trophy_planter",
+            "set_reg_trophy_planter"

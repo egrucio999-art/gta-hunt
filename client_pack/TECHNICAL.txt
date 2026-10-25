@@ -1,0 +1,32 @@
+========================================
+  SAINTS RAT // ТЕХНИЧЕСКИЙ РАЗБОР
+========================================
+
+ИСТОЧНИКИ:
+  1. LevelDB серверного кэша
+     /NG/data/server-cache/db/000005.ldb
+  2. NUI Storage
+     /NG/data/nui-storage/context-server_/Cache/Cache_Data/data_1
+  3. CDN сервера
+     https://cdn.ng-gta5.com
+
+КЛЮЧЕВЫЕ НАХОДКИ:
+  1. ng_easteregg/resource.rpf
+     - Манифест карты
+     - fx_version "bodacious"
+  2. ng_arena/resource.rpf
+     - Манифест арены
+     - author "korry"
+  3. bob74_ipl.rpf
+     - 11942 строки Lua
+     - Содержит все IPL-локации
+     - Координаты пасхалок
+
+КЛЮЧЕВЫЕ СТРОКИ:
+  line 344: AgentsFactory.LoadDefault() -- 752.31, -997.24, -47.0
+  line 996: -- Garment Factory: 752.31, -997.24, -47.0
+  line 1014: egg = "set_pent_rob_egg"
+  line 269: DiamondArcade.LoadDefault() -- 2732.000, -380.000, -50.000
+  line 11046: -- Stadium "Fame or Shame": -248.49, -2010.51, 34.57
+
+========================================

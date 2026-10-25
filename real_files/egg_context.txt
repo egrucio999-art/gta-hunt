@@ -1,0 +1,21 @@
+            ipl = "m24_2_garment_factory",
+            Load = function()
+                EnableIpl(AgentsFactory.Ipl.Exterior.ipl, true)
+            end,
+            Remove = function()
+                EnableIpl(AgentsFactory.Ipl.Exterior.ipl, false)
+            end
+        }
+    },
+    Trophy = {
+        egg = "set_pent_rob_egg",
+        idol01 = "set_pent_rob_idol_01",
+        idol02 = "set_pent_rob_idol_02",
+        scarab = "set_zanc_scarab",
+        drive = "set_whistle_drive",
+        plane = "set_cargo",
+        Enable = function(trophy, state, refresh)
+            SetIplPropState(AgentsFactory.interiorId, trophy, state, refresh)
+        end
+    },
+    Details = {
