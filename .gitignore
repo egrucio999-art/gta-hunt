@@ -1,3 +1,14 @@
 __pycache__/
 *.pyc
 *.rpf
+*.txt
+*.png
+*.ybn
+*.ytd
+*.yft
+full_models/
+all_files/
+client_pack/
+downloads/
+real_files/
+
